@@ -1,0 +1,290 @@
+Started GET "/" for 127.0.0.1 at 2023-04-22 08:09:59 +0300
+Started GET "/" for 127.0.0.1 at 2023-04-22 08:09:59 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (30.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20230328090609_create_greetings.rb
+
+
+):
+  
+activerecord (7.0.4.3) lib/active_record/migration.rb:627:in `check_pending!'
+activerecord (7.0.4.3) lib/active_record/migration.rb:592:in `block (2 levels) in call'
+activesupport (7.0.4.3) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.4.3) lib/active_record/migration.rb:597:in `block in call'
+activerecord (7.0.4.3) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4.3) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.3) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.3) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.3) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.3) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.3) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.3) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.3) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.3) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[36mActiveRecord::SchemaMigration Pluck (3.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20230328090609_create_greetings.rb
+
+
+):
+  
+activerecord (7.0.4.3) lib/active_record/migration.rb:627:in `check_pending!'
+activerecord (7.0.4.3) lib/active_record/migration.rb:592:in `block (2 levels) in call'
+activesupport (7.0.4.3) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.4.3) lib/active_record/migration.rb:597:in `block in call'
+activerecord (7.0.4.3) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4.3) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.3) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.3) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.3) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.3) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.3) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.3) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.3) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.3) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+
+NameError: constant WebConsole::SourceLocation not defined
+
+          source_location = SourceLocation.new(binding)
+                            ^^^^^^^^^^^^^^
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:51:in `block in guess_the_first_application_binding'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `each'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `find'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `guess_the_first_application_binding'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:30:in `first'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:48:in `initialize'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `new'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `from'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:30:in `block in call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `catch'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4.3/lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4.3/lib/rails/rack/logger.rb:40:in `call_app'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4.3/lib/rails/rack/logger.rb:25:in `block in call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4.3/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4.3/lib/active_support/tagged_logging.rb:37:in `tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4.3/lib/active_support/tagged_logging.rb:99:in `tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4.3/lib/rails/rack/logger.rb:25:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4.3/lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4.3/lib/action_dispatch/middleware/request_id.rb:26:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.6.4/lib/rack/method_override.rb:24:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.6.4/lib/rack/runtime.rb:22:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4.3/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4.3/lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4.3/lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4.3/lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4.3/lib/action_dispatch/middleware/static.rb:23:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.6.4/lib/rack/sendfile.rb:110:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4.3/lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4.3/lib/rails/engine.rb:530:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.5/lib/puma/configuration.rb:252:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.5/lib/puma/request.rb:77:in `block in handle_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.5/lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.5/lib/puma/request.rb:76:in `handle_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.5/lib/puma/server.rb:443:in `process_client'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.5/lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (45.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (969.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "hello_rails_react_development"[0m
+  [1m[35m (636.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "hello_rails_react_test"[0m
+  [1m[35m (1032.3ms)[0m  [1m[35mCREATE DATABASE "hello_rails_react_development" ENCODING = 'unicode'[0m
+  [1m[35m (803.2ms)[0m  [1m[35mCREATE DATABASE "hello_rails_react_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (28.7ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (9.6ms)[0m  [1m[35mDROP TABLE IF EXISTS "greetings" CASCADE[0m
+  [1m[35m (121.5ms)[0m  [1m[35mCREATE TABLE "greetings" ("id" bigserial primary key, "text" text, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (58.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (5.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (5.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20230328090609)[0m
+  [1m[35m (76.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-04-22 05:11:32.590821"], ["updated_at", "2023-04-22 05:11:32.590821"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "0ba3f7f2aaa794b192ee6fd8aec42c492474562f"], ["created_at", "2023-04-22 05:11:32.625057"], ["updated_at", "2023-04-22 05:11:32.625057"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "greetings" CASCADE[0m
+  [1m[35m (369.4ms)[0m  [1m[35mCREATE TABLE "greetings" ("id" bigserial primary key, "text" text, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (352.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20230328090609)[0m
+  [1m[35m (101.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-04-22 05:11:33.727037"], ["updated_at", "2023-04-22 05:11:33.727037"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (1.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2023-04-22 05:11:33.738641"], ["key", "environment"]]
+  [1m[36mTRANSACTION (16.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "0ba3f7f2aaa794b192ee6fd8aec42c492474562f"], ["created_at", "2023-04-22 05:11:33.764070"], ["updated_at", "2023-04-22 05:11:33.764070"]]
+  [1m[36mTRANSACTION (8.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (5.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (2.1ms)[0m  [1m[32mINSERT INTO "greetings" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "Hello, world!"], ["created_at", "2023-04-22 05:11:34.164176"], ["updated_at", "2023-04-22 05:11:34.164176"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.4ms)[0m  [1m[32mINSERT INTO "greetings" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "Welcome to my app!"], ["created_at", "2023-04-22 05:11:34.172673"], ["updated_at", "2023-04-22 05:11:34.172673"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.5ms)[0m  [1m[32mINSERT INTO "greetings" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "Greetings, friend!"], ["created_at", "2023-04-22 05:11:34.178119"], ["updated_at", "2023-04-22 05:11:34.178119"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.4ms)[0m  [1m[32mINSERT INTO "greetings" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "Hi there!"], ["created_at", "2023-04-22 05:11:34.183584"], ["updated_at", "2023-04-22 05:11:34.183584"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.4ms)[0m  [1m[32mINSERT INTO "greetings" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "Nice to meet you!"], ["created_at", "2023-04-22 05:11:34.189178"], ["updated_at", "2023-04-22 05:11:34.189178"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6835469566630085430)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6835469566630085430)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (2.0ms)[0m  [1m[32mINSERT INTO "greetings" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "Hello, world!"], ["created_at", "2023-04-22 05:12:45.873705"], ["updated_at", "2023-04-22 05:12:45.873705"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.4ms)[0m  [1m[32mINSERT INTO "greetings" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "Welcome to my app!"], ["created_at", "2023-04-22 05:12:45.882690"], ["updated_at", "2023-04-22 05:12:45.882690"]]
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.4ms)[0m  [1m[32mINSERT INTO "greetings" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "Greetings, friend!"], ["created_at", "2023-04-22 05:12:45.890362"], ["updated_at", "2023-04-22 05:12:45.890362"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.4ms)[0m  [1m[32mINSERT INTO "greetings" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "Hi there!"], ["created_at", "2023-04-22 05:12:45.895506"], ["updated_at", "2023-04-22 05:12:45.895506"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.5ms)[0m  [1m[32mINSERT INTO "greetings" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "Nice to meet you!"], ["created_at", "2023-04-22 05:12:45.900886"], ["updated_at", "2023-04-22 05:12:45.900886"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2023-04-22 08:13:28 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 17.0ms | Allocations: 307)
+  Rendered layout layouts/application.html.erb (Duration: 1299.2ms | Allocations: 68249)
+Completed 500 Internal Server Error in 1634ms (ActiveRecord: 0.0ms | Allocations: 71914)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 127.0.0.1 at 2023-04-22 08:33:14 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (7.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 54.3ms | Allocations: 307)
+  Rendered layout layouts/application.html.erb (Duration: 763.4ms | Allocations: 23094)
+Completed 500 Internal Server Error in 918ms (ActiveRecord: 0.0ms | Allocations: 26258)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+  [1m[36mGreeting Load (45.8ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
